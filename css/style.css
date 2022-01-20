@@ -1,0 +1,250 @@
+/* INDEX */
+:root {
+    --main-font: font-family: 'Montserrat', sans-serif;
+    --secondary-font: font-family: 'Roboto', sans-serif;
+    --main-color:#2196F3; 
+}
+
+.body {
+    font-family: var(--secondary-font);
+}
+
+/* COMPONENTS */ 
+.secondary-header {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    
+}
+/* END COMPONENTS */ 
+
+/* HEADER */ 
+.navigation-list-link, 
+.address-link {
+    
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-link:hover,
+.address-link:focus,
+.address-list-address:hover,
+address-list-address:focus,
+.address-list-item:hover,
+.address-list-item:focus {
+    color:var(--main-color)
+}
+
+.address-link {
+    color: #757575;
+}
+.navigation-list {
+list-style-type: none;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* END HEADER */ 
+
+/* HERO */ 
+.hero {
+    background-color: #2F303A;
+}
+
+.main-header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+}
+
+.modal-btn {
+    width: 200px;
+    height: 50px;
+
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color:white;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    cursor: pointer;
+}
+/* END HERO */ 
+
+/* ABOUT */ 
+.ab-dc-list-item-text,
+.ab-dc-list-item-title {
+ font-family: Roboto;
+ font-size: 14px;
+  letter-spacing: 0.03em;
+}
+.ab-dc-list-item-title {
+    font-weight: bold;
+    line-height: 1.143;
+    text-transform: uppercase;
+    color: #212121
+}
+
+.ab-dc-list-item-text {
+    line-height: 1.714;
+    color: #757575;
+}
+/* END ABOUT */ 
+
+/* ACTIVITY */ 
+/* END ACTIVITY */ 
+
+/* TEAM */ 
+.team {
+    background-color: #F5F4FA;
+}
+
+.worker-name,
+.work-position {
+font-family: Roboto;
+font-size: 16px;
+line-height: 1.188;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.worker-name {
+font-weight: 500;
+color: #212121;
+}
+
+.work-position {
+color: #757575;
+}
+/* END TEAM */ 
+
+/* FOOTER */ 
+.footer {
+    background-color:#2F303A;
+}
+
+.address-list-address,
+.address-list-item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height:1.714;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.address-list-address {
+    color: #FFFFFF;
+}
+
+.address-list-item {
+color: rgba(255, 255, 255, 0.6);
+}
+/* END FOOTER */ 
+
+/* ========= PORTFOLIO ========== */
+
+/* MENU */
+.navigation-list-link-portfolio {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+     color:var(--main-color)
+}
+/* END MENU*/
+
+/* HERO */
+.btn-portfolio,
+.btn-portfolio2,
+.btn-portfolio3,
+.btn-portfolio4,
+.btn-portfolio5
+ {
+    width: 121px;
+    height: 38px;
+    background-color: #F5F4FA;
+    color: #212121
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    border: 0px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700; 
+    line-height: 1.625;
+    cursor: pointer;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus,
+.btn-portfolio2:hover,
+.btn-portfolio2:focus,
+.btn-portfolio3:hover,
+.btn-portfolio3:focus,
+.btn-portfolio4:hover,
+.btn-portfolio4:focus,
+.btn-portfolio5:hover,
+.btn-portfolio5:focus {
+    background-color:#2196F3;
+    color:#FFFFFF;
+}
+.btn-portfolio2 {
+width: 93px;
+height: 38px;
+}
+.btn-portfolio3 {
+width: 114px;
+height: 38px;
+}
+.btn-portfolio4 {
+width: 91px;
+height: 38px;
+}
+
+.btn-portfolio5 {
+width: 121px;
+height: 38px;
+}
+
+/* END HERO */
+
+/* ALL */
+.all-item {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.all-item-category {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
