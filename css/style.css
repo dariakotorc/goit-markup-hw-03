@@ -9,6 +9,27 @@
     font-family: var(--secondary-font);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:0;
+    padding:0;
+}
+
+ul,
+ol {
+    margin:0;
+    padding:0;
+}
+
+p {
+    margin:0;
+    padding:0;
+}
+
 /* COMPONENTS */ 
 .secondary-header {
     font-family: Roboto;
@@ -23,6 +44,12 @@
 /* END COMPONENTS */ 
 
 /* HEADER */ 
+.link {
+    list-style: none;
+    text-decoration: none;
+}
+
+
 .navigation-list-link, 
 .address-link {
     
