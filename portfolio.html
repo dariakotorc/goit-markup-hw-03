@@ -13,8 +13,9 @@
 </head>
 <body>
     <header class="header">
+    <div class="container">
         <!-- MENU -->
-        <nav >
+        <nav class="navigation">
             <a class="navigation-logo" href="/index.html">
                 <img src="images/logo/logo.jpg" alt="logo webstudio" width="144" height="20">
             </a>
@@ -31,50 +32,52 @@
                 </li>
             </ul>
         </nav>
-        <a class="address-link link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="address-link link link" href="tel:+48111111111">+48 111 111 111</a>
+        <a class="address-link link link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="address-link link link-tel" href="tel:+48111111111">+48 111 111 111</a>
+    </div>
     </header>
 
 <main>
     <!-- HERO -->
-    <section>
-        <ul>
-            <li>
+    <section class="all">
+        <div class="container">
+        <ul class="portfolio list">
+            <li class="buttons">
                 <button class="btn-portfolio" 
                     type="button"
                 >Wszystkie</button>
             </li>
-            <li>
+            <li class="buttons">
                 <button class="btn-portfolio2" 
                     type="button"
                     width="93"
                     height="38"
                     >Strony</button>
             </li>
-            <li>
+            <li class="buttons">
                 <button class="btn-portfolio3" type="button">Aplikacje</button>
             </li>
-            <li>
+            <li class="buttons">
                 <button class="btn-portfolio4" type="button">Dizajn</button>
             </li>
             <li>
                 <button class="btn-portfolio5" type="button">Marketing</button>
             </li>
         </ul>
-    </section>
+        </div>
 
     <!-- ALL -->
-    <section class="all">
-        <div>
-            <ul class="all-list">
-                <li>
+    
+        <div class="container">
+            <ul class="all-list list">
+                <li class="itm">
                     <a href="#">
                     <img src="images/all/all-item-img1 (1).jpg" width="370" height="294">
                     </a>
                     <h3 class="all-item">Technocrack</h3>
                     <p class="all-item-category">Strona internetowa</p>
                 </li>
-                <li>
+                <li class="itm">
                     <a href="#">
                     <img src="images/all/all-item-img2 (1).jpg"
                            width="370"
@@ -83,7 +86,7 @@
                     <h3 class="all-item">Grafika New Orlean vs Golden Star</h3>
                     <p class="all-item-category">Dizajn</p>
                 </li>
-                <li>
+                <li class="itm">
                     <a href="#">
                     <img 
                         src="images/all/all-item-img3 (1).jpg"
@@ -93,7 +96,7 @@
                     <h3 class="all-item">Restauracja Seafood</h3>
                     <p class="all-item-category">Aplikacja</p>
                 </li>
-                <li>
+                <li class="wrap itm">
                     <a href="#">
                     <img src="images/all/all-item-img4 (1).jpg"
                        width="370"
@@ -102,7 +105,7 @@
                     <h3 class="all-item">Projekt Prime</h3>
                     <p class="all-item-category">Marketing</p>
                 </li>
-                <li>
+                <li class="itm">
                     <a href="#">
                     <img src="images/all/all-item-img5 (1).jpg"
                          width="370"
@@ -111,7 +114,7 @@
                     <h3 class="all-item">Projekt Boxes</h3>
                     <p class="all-item-category">Aplikacja</p>
                 </li>
-                <li>
+                <li class="itm">
                     <a href="#">
                     <img src="images/all/all-item-img6 (1).jpg"
                          width="370"
@@ -120,7 +123,7 @@
                     <h3 class="all-item">Inspiration has no Borders</h3>
                     <p class="all-item-category">Strona internetowa</p>
                 </li>
-                <li>
+                <li class="itm">
                     <a href="#">
                     <img src="images/all/all-item-img7 (1).jpg"
                         width="370"
@@ -129,7 +132,7 @@
                     <h3 class="all-item">Magazyn Limited Edition</h3>
                     <p class="all-item-category">Dizajn</p>
                 </li>
-                <li>
+                <li class="itm">
                     <a href="#">
                     <img src="images/all/all-item-img8 (1).jpg"
                          width="370"
@@ -138,7 +141,7 @@
                     <h3 class="all-item">Projekt LAB</h3>
                     <p class="all-item-category">Marketing</p>
                 </li>
-                <li>
+                <li class="itm">
                     <a href="#">
                     <img src="images/all/all-item-img9 (1).jpg"
                         alt=""
@@ -154,16 +157,21 @@
     </section>
 </main>
 <footer class="footer">
-<a href="/index.html"><img src="images/logo/WebStudio_bez_tla.png" alt="logo webstudio" width="144" height="20">
-</a>
-<address class="address">
-    <ul class="address-list">
-        <li><a class="address-list-address link" href="https://goo.gl/maps/H4JfT4WWAkDgfEN37" target="_blank">m. Warszawa,
-                Aleje Jerozolimskie 21</a></li>
-        <li><a class="address-list-item link" href="mailto:info@example.com">info@example.com</a></li>
-        <li><a class="address-list-item link" href="tel:+48111111111">+48 111 111 111</a></li>
-    </ul>
-</address>
+<div class="container">
+    <a href="/index.html"><img 
+        src="images/logo/WebStudio_bez_tla.png" 
+        alt="logo webstudio" 
+        class="logo">
+    </a>
+    <address class="address">
+        <ul class="address-list list">
+            <li><a class="address-list-address link address-footer" href="https://goo.gl/maps/H4JfT4WWAkDgfEN37" target="_blank">m. Warszawa,
+                    Aleje Jerozolimskie 21</a></li>
+            <li><a class="address-list-item link address-footer" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="address-list-item link tel" href="tel:+48111111111">+48 111 111 111</a></li>
+        </ul>
+    </address>
+</div>
 </footer>
 </body>
 </html>

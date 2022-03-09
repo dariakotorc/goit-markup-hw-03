@@ -15,6 +15,8 @@
 </head>
 <body>
     <header class="header"> 
+    <div class="container">
+
         <!-- MENU -->
         <nav class="navigation">
         <a class="navigation-logo" href="#">
@@ -25,7 +27,7 @@
             height="20">
         </a>
        
-            <ul class="navigation-list">
+            <ul class="navigation-list list">
                 <li class="navigation-list-item">
                     <a class="navigation-list-link link" href="#">Agencja</a></li>
                 <li class="navigation-list-item">
@@ -34,22 +36,27 @@
                     <a class="navigation-list-link link" href="#">Kontakt</a></li>
             </ul>
         </nav>
-        <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="address-link link" href="tel:+48111111111">+48 111 111 111</a>
+        <a class="address-link link link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="address-link link link-tel" href="tel:+48111111111">+48 111 111 111</a>
+    </div>
     </header>
+
     <main>
         <!-- HERO -->
         <section class="main-hero">
+        <div class="hero-container">
             <div class="hero">
                 <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
                 <button class="modal-btn" type="button">Zamów usługe</button>
             </div>
+        </div>
         </section>
-
+        
         <!-- ABOUT -->
-        <section class="about">
+        <section class="about section">
+<div class="container">
             <div class="about-description">
-                <ul class="about-description-list">
+                <ul class="about-description-list list">
                     <li class="about-description-list-item">
                         <p class="ab-dc-list-item-title">LOREM IPSUM</p>
                         <p class="ab-dc-list-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
@@ -71,13 +78,15 @@
                     </li>
                 </ul>
             </div>
-        </section>
+    </div>
+        
 
         <!-- ACTIVITY -->
-        <section class="activity">
-            <div>
-            <h2 class="secondary-header">Czym się zajmujemy</h2>
-            <ul class="activity-list">
+        
+<div class="container">
+            <div class="activity">
+            <h2 class="secondary-header">Czym się zajmujemy</h2>
+            <ul class="activity-list list">
                 <li class="activity-list-item">
                     <img class="activity-list-photo"
                     src="images/about_us/about_us_img1.jpg" 
@@ -98,67 +107,75 @@
                     height="294"></li>
             </ul>
             </div>
+    </div>
         </section>
 
         <!-- TEAM -->
-        <section class="team">
+        <section class="team section">
+    <div class="container">
             <h2 class="secondary-header">Nasz zespół</h2>
-            <ul>
-                <li>
+            <ul class="team-list list">
+                <li class="item ">
                     <img class="team-photo"
                     src="images/team/team1.jpg" 
                     alt="John Doe photo"
-                    width="406"
-                    height="390">
+                    width="270"
+                    height="260">
                     <h3 class="worker-name">John Doe</h3>
                     <p class="work-position">Product Designer</p>
                 </li>
-                <li>
+            
+                <li class="item">
                     <img class="team-photo"
                     src="images/team/team2.jpg" 
                     alt="Michele Doe photo"
-                     width="810"
-                    height="780">
+                     width="270"
+                    height="260">
                     <h3 class="worker-name">Michele Doe</h3>
                     <p class="work-position">Product Designer</p>
                 </li>
-                <li>
+                
+                <li class="item">
                     <img class="team-photo"
                     src="images/team/team3.jpg" 
                     alt="Alan Doe photo"
-                     width="810"
-                    height="780">
+                     width="270"
+                    height="260">
                     <h3 class="worker-name">Alan Doe</h3>
                     <p class="work-position">Product Designer</p>
                 </li>
-                <li>
+                
+                <li class="item">
                     <img class="team-photo"
                     src="images/team/team4.jpg" 
                     alt="Max Doe photo"
-                     width="810"
-                    height="780">
+                     width="270"
+                    height="260">
                     <h3 class="worker-name">Max Doe</h3>
                     <p class="work-position">Product Designer</p>
                 </li>
             </ul>
+    </div>
         </section>
     </main>
+
     <footer class="footer">
+    <div class="container">
         <a 
         href="#"><img 
         src="images/logo/WebStudio_bez_tla.png" 
         alt="logo webstudio" 
-        width="144" 
-        height="20">
+        class="logo">
         </a>
             <address class="address">
-                <ul class="address-list">
-                    <li><a class="address-list-address link" href="https://goo.gl/maps/H4JfT4WWAkDgfEN37" target="_blank"
+                <ul class="address-list list">
+                    <li><a class="address-list-address link address-footer" href="https://goo.gl/maps/H4JfT4WWAkDgfEN37" target="_blank"
                         >m. Warszawa, Aleje Jerozolimskie 21</a></li>
-                    <li><a class="address-list-item link" href="mailto:info@example.com">info@example.com</a></li>
-                    <li><a class="address-list-item link" href="tel:+48111111111">+48 111 111 111</a></li>
+                    <li><a class="address-list-item link address-footer" href="mailto:info@example.com">info@example.com</a></li>
+                    <li><a class="address-list-item link tel" href="tel:+48111111111">+48 111 111 111</a></li>
                 </ul>
             </address>
+    </div>
     </footer>
 
 </body>

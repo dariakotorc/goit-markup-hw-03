@@ -26,11 +26,33 @@ ol {
 }
 
 p {
-    margin:0;
+    padding:0px;
+    margin:0px;
+}
+
+img {
+    display:block;
+}
+
+link {
     padding:0;
 }
 
+.container {
+    width:1200px;
+    margin:0 auto;
+    align-items:center;
+    padding:0;
+}
+.section {
+    padding-top:94px;
+    padding-bottom:94px;
+}
 /* COMPONENTS */ 
+.header {
+    border: 1px solid #ECECEC;
+}
+
 .secondary-header {
     font-family: Roboto;
     font-weight: bold;
@@ -39,13 +61,55 @@ p {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    
+    padding-bottom:50px;
+}
+
+.list {
+    list-style-type: none;
 }
 /* END COMPONENTS */ 
 
 /* HEADER */ 
+
+.navigation-logo {
+    padding-right:93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.navigation-list {
+    display:flex;
+    align-items: center;
+}
+
+.navigation-list-item {
+    padding-right:36px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.link-mail{
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-left:371px;
+}
+
+.link-tel {
+    padding-left:50px;
+}
+.header .container {
+    display:flex;
+    align-items: center;
+}
+
+.navigation {
+    display:flex;
+}
+
+.list {
+     list-style: none;
+}
+
 .link {
-    list-style: none;
     text-decoration: none;
 }
 
@@ -66,7 +130,7 @@ p {
 .address-link:hover,
 .address-link:focus,
 .address-list-address:hover,
-address-list-address:focus,
+.address-list-address:focus,
 .address-list-item:hover,
 .address-list-item:focus {
     color:var(--main-color)
@@ -85,7 +149,10 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 .hero {
     background-color: #2F303A;
 }
-
+.container .hero{
+    display:flex;
+    align-items: center;
+}
 .main-header {
     font-family: Roboto;
     font-style: normal;
@@ -97,7 +164,16 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    
+    padding-bottom: 30px;
+}
+
+.hero {
+    align-items: center;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top:200px;
+    padding-bottom: 200px;
 }
 
 .modal-btn {
@@ -114,9 +190,30 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     line-height: 1.875;
     cursor: pointer;
 }
+
+.main-header {
+    width:696px;
+}
 /* END HERO */ 
 
 /* ABOUT */ 
+.activity .activity-list {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-description .about-description-list {
+    display:flex;
+    width: 1200px;
+    flex-direction:row-reverse;
+}
+.about-description {
+    padding-bottom:94px;
+}
+.about-description-list-item {
+    padding-right:30px;
+}
+
 .ab-dc-list-item-text,
 .ab-dc-list-item-title {
  font-family: Roboto;
@@ -140,6 +237,20 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 /* END ACTIVITY */ 
 
 /* TEAM */ 
+.team-list {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+}
+.item {
+    width:270px;
+    height: 368px;
+    background-color: white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
 .team {
     background-color: #F5F4FA;
 }
@@ -156,10 +267,14 @@ letter-spacing: 0.03em;
 .worker-name {
 font-weight: 500;
 color: #212121;
+padding-top:30px;
+padding-bottom:10px;
 }
 
 .work-position {
 color: #757575;
+padding-top:0;
+padding-bottom:30px;
 }
 /* END TEAM */ 
 
@@ -274,4 +389,72 @@ height: 38px;
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+.logo {
+    padding-bottom: 20px;
+    padding-top:60px;
+    width:145px;
+   
+}
+
+.address-list {
+    padding-bottom: 60px;
+}
+
+.address-footer {
+padding-bottom:9px;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer .container {
+    display:block;
+    align-items: center;
+}
+
+.portfolio {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top:94px;
+    padding-bottom:50px;
+}
+
+.buttons {
+    padding-right: 8px;
+}
+
+.all-list {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-left: -30px;
+    margin-top: -30px;
+    padding-bottom:94px;
+}
+
+.wrap {
+    flex-wrap:wrap;
+}
+
+.itm {
+    margin-left: 30px;
+    margin-top: 30px;
+    height:404px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.all-item {
+    padding-left:24px;
+    padding-top:20px;
+
+}
+
+.all-item-category {
+    padding-left:24px;
+    padding-bottom:20px;
 }
